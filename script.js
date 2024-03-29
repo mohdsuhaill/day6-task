@@ -8,7 +8,7 @@
 // a) Write a constructor for the class Movie, which takes a String representing the title of the movie, a String representing the studio,
 //  and a String representing the rating as its arguments, and sets the respective class properties to these values.
 
-/*class movie1 {
+class movie1 {
     constructor(title,studio,ratings){
         this.title=title;
         this.studio=studio;
@@ -17,10 +17,10 @@
 }
 
 const details1 = new movie1("LEO","7 Screen studios","8.0")
-console.log(details1.title,details1.studio,details1.ratings);*/
+console.log(details1.title,details1.studio,details1.ratings);
 
 // b) The constructor for the class Movie will set the class property rating to "PG" as default when no rating is provided.
-/*class movie2 {
+class movie2 {
     constructor(title,studio,ratings="PG"){
         this.title=title;
         this.studio=studio;
@@ -29,12 +29,12 @@ console.log(details1.title,details1.studio,details1.ratings);*/
 }
 
 const details2 = new movie2("vikram"," Kamal Haasan, R Mahendran",)
-console.log(details2.title,details2.studio,details2.ratings);*/
+console.log(details2.title,details2.studio,details2.ratings);
 
 
 // c) Write a method getPG, which takes an array of base type Movie as its argument, and returns a new array of only 
 // those movies in the input array with a rating of "PG". You may assume the input array is full of Movie instances. The returned array need not be full.
-/*class movie {
+class movie {
     constructor(title,studio,ratings="PG"){
         this.title=title;
         this.studio=studio;
@@ -49,12 +49,12 @@ const movies =[
     new movie("Billa","Ayngaran International"),
     new movie("Sivaji: The Boss","AVM Productions","PG10")
 ];
-console.log(movies.filter(movie=>movie.ratings==="PG"));*/
+console.log(movies.filter(movie=>movie.ratings==="PG"));
 
 
 // d) Write a piece of code that creates an instance of the class Movie with the title “Casino Royale”, the studio “Eon Productions”, and the rating “PG­13”
 
-/*class movie3 {
+class movie3 {
     constructor(title,studio,ratings="PG"){
         this.title=title;
         this.studio=studio;
@@ -63,11 +63,11 @@ console.log(movies.filter(movie=>movie.ratings==="PG"));*/
 }
 
 const details3 = new movie3("Casino Royale","Eon Production","PG13")
-console.log(details3.title,details3.studio,details3.ratings);*/
+console.log(details3.title,details3.studio,details3.ratings);
 
 // Task 2 
 // circle class
-/*class circle {
+class circle {
     constructor(radius,color){
         this.radius=radius;
         this.color=color;
@@ -100,12 +100,12 @@ console.log(details3.title,details3.studio,details3.ratings);*/
   console.log(values.toString);
   console.log(values.area);
   console.log(values.circumference);
-  */ 
+  
 
 // Task 3
 // Write a “person” class to hold all the details.
 
-/*class person {
+class person {
     constructor(name,age ,gender,martialstatus,contact,Email){
     this.name =name;
     this.age=age;
@@ -116,7 +116,7 @@ console.log(details3.title,details3.studio,details3.ratings);*/
     }
 }
 const obj = new person("Mohammed suhail I","22","Male","single","7339313293","suhailabdmohammed@gmail.com");
-console.log(obj.name,obj.age,obj.martialstatus,obj.gender,obj.contact,obj.Email);*/
+console.log(obj.name,obj.age,obj.martialstatus,obj.gender,obj.contact,obj.Email);
 
 
 // Task 4
